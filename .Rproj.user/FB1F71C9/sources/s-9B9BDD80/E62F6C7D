@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554070930558.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E62F6C7D",
+    "lastKnownWriteTime" : 1554156305,
+    "last_content_update" : 1554156305098,
+    "path" : "~/getcffpackage/R/activeUsers.R",
+    "project_path" : "R/activeUsers.R",
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
