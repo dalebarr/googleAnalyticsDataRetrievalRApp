@@ -25,12 +25,12 @@ getActiveUsers <- function() {
 	## Authorise token
 	token <- Auth(client.id, client.secret)
 
-	authorize(username = "cashflowfunding.co.nz@gmail.com",
-			client.id,
-			client.secret,
-			reauth = FALSE,
-			cache = TRUE,
-			token)
+	#authorize(username = "cashflowfunding.co.nz@gmail.com",
+	#		client.id,
+	#		client.secret,
+	#		reauth = FALSE,
+	#		cache = TRUE,
+	#		token)
 
 	## load(file = "/AnalyticsDashboardApp/RProject/GoogleAnalyticsReport/GoogleAnalyticsReport/Token")  ## Production
 	#load(file = "E:/Projects/CFF Utilities/CFFDashboard/GoogleAnalyticsReport/Token") ## Dev
