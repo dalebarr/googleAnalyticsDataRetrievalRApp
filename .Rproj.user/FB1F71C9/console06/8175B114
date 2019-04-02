@@ -4,4 +4,58 @@ $[0K[3G[?25h[?25l[1A[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcf
 [0m$[0K[3G[?25h[0m[0K]0;:/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[?25l
 [0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[0m[0K
 [?25l[1A[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[0K
-[0m$[0K[3G[?25h
+[0m$[0K[3G[?25h[0m[0K]0;:/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[?25l
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[0m[0K
+[?25l$ p[0K[?25hw[0Kd[0K[?25l
+/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[0K
+[0K
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp[0m[0K
+$[0K[3G[?25h[?25l$ r[0K[?25hc[0K[?25l$ r[0K[?25hs[0Kc[0Kr[0Ki[0Kp[0Kt[0Ks[0K[?25l$ rscript[0K[?25h[?25l$ rscrip[0K[10G[?25h[9G[?25l$ rscri[0K[?25h[?25l$ rscr[0K[?25h[?25l$ rsc[0K[7G[?25h[6G[?25l$ rs[0K[?25h[?25l$ r[0K[?25h[?25l$[0K[3G[?25h[?25l$ R[0K[?25hs[0Kc[0Kr[0Ki[0Kp[0Kt[0K[11G[?25l$ Rscript a[0K[?25hc[0Kt[0Ki[0Kv[0Ke[0KU[0Ks[0Ke[0Kr[0Ks[0K.[0KR[0K[?25l$ Rscript activeUsers.[0K[?25h[?25l$ Rscript activeUsers[0K[?25h[?25l$ Rscript activeUser[0K[?25h[?25l$ Rscript activeUse[0K[?25h[?25l$ Rscript activeUs[0K[?25h[?25l$ Rscript activeU[0K[?25h[?25l$ Rscript active[0K[?25h[?25l$ Rscript activ[0K[?25h[?25l$ Rscript acti[0K[?25h[?25l$ Rscript act[0K[15G[?25h[?25l$ Rscript ac[0K[?25h[?25l$ Rscript a[0K[?25h[?25l$ Rscript[0K[11G[?25h[10G[?25l$ Rscrip[0K[?25h[?25l$ Rscr[0K[8G[?25h[7G[?25l$ Rsc[0K[?25h[?25l$ Rs[0K[?25h[?25l$ R[0K[?25h[?25l$[0K[3G[?25h[?25l$ c[0K[?25hd[0K[6G[?25l$ cd R[0K[?25h]0;:/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[?25l
+[0K
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hRGA  RGoogleAnalytics  RJSONIO  Token  activeUsers.R  devtools  lubridate  stats[0K[?25l
+[0K
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[0m[0K
+$[0K[3G[?25h[?25l$ R[0K[?25hs[0Kc[0Kr[0Ki[0Kp[0Kt[0Ks[0K[?25l$ Rscript[0K[11G[?25h[10G[11G[?25l$ Rscript a[0K[?25hc[0Kt[0Ki[0Kv[0Ke[0KU[0Ks[0Ke[0Kr[0Ks[0K.[0KR[0K[?25l
+[0K[?25h]0;Rterm  -  Microsoft R Server version 9.1 (64-bit)[?25lPlease use predefined Credenti[0K[29G[?25h[?25lPlease use predefined Credentials only for the testing requests. To obtain your own Credentials see help(authorize).[0K
+[0K
+Attaching package: 'lubridate'[0K
+[0K
+[0K[?25hThe following object is masked from 'package:base':[0K[?25l
+[0K
+    date[0K
+[0K
+Loading requi[0K[11G[?25h[?25lLoading required package: httr[0K
+[0K[?25h]0;:/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[?25l
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[0m[0K
+$[0K[3G[?25h[?25l$ Rscript activeUsers.R[0K[?25h[?25l
+[0K[?25h]0;Rterm  -  Microsoft R Server version 9.1 (64-bit)[?25lPlease use predefined Creden[0K[27G[?25h[?25lPlease use predefined Credentials only for the testing requests. To obtain your own Credentials see help(authorize).[0K
+[0K[?25h[?25l
+Attaching package: 'lubridate'[0K
+[0K
+The following object is masked from 'package:base':[0K
+[0K
+    date[0K
+[0K
+[0K[?25hLoading required package: httr[0K[?25l
+[0K[?25h]0;:/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[?25l
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[0m[0K
+$[0K[3G[?25h[?25l$ Rscript activeUsers.R[0K[?25h[?25l
+[0K[?25h]0;Rterm  -  Microsoft R Server version 9.1 (64-bit)Loading required package: RGA[0K[?25l
+[0K[?25h[?25lPlease use predefined Credentials only for the testing requests. To obtain your own Credentials see help(authorize)[0K[113G[?25h[?25lPlease use predefined Credentials only for the testing requests. To obtain your own Credentials see help(authorize).[0K
+Loading required package: lubridate[0K
+[0K
+Attaching package[0K[16G[?25h[?25lAttaching package: 'lubridate'[0K
+[0K
+The following object is masked from 'package:base':[0K
+[0K
+    date[0K
+[0K
+Load[0K[3G[?25h[?25lLoading required package: RGoogleAnalytics[0K
+Loading required package: httr[0K
+[0K[?25hLoading required package: devtools[0K[?25l
+[0K[?25hLoading required package: RJSONIO[0K[?25l
+[0K[?25h]0;:/c/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[?25l
+[0;32mDale@CF-103720 [0;35m [0;33m~/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R[0m[0K
+$[0K[3G[?25h

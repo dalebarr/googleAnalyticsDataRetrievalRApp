@@ -1,9 +1,9 @@
-library(RGA)
-library(lubridate)
-library(RGoogleAnalytics)
-library(devtools)
-library(RJSONIO)
-library(stats)
+require(RGA)
+require(lubridate)
+require(RGoogleAnalytics)
+require(devtools)
+require(RJSONIO)
+require(stats)
 
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
@@ -35,8 +35,8 @@ getActiveUsers <- function() {
 	## load(file = "/AnalyticsDashboardApp/RProject/GoogleAnalyticsReport/GoogleAnalyticsReport/Token")  ## Production
 	#load(file = "E:/Projects/CFF Utilities/CFFDashboard/GoogleAnalyticsReport/Token") ## Dev
 	#load(file = "C:/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
-	load(file = "/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
-	ValidateToken(token)
+	#load(file = "/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
+	##ValidateToken(token)
 
 	# Build a list from query
 
@@ -172,6 +172,8 @@ getActiveUsers <- function() {
 					        "dailyUsers" = exportDailyUsersJson,
 					        "monthlyUsers" = exportMonthlyUsersJson,
 					        "bouncedDailyUsers" = exportBouncedDailyUsersJson)
+
+	print(retn_list)
 
 	return(retn_list)
 }
