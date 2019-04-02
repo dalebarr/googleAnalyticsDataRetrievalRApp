@@ -9,11 +9,11 @@
     "id" : "E62F6C7D",
     "lastKnownWriteTime" : 1554156305,
     "last_content_update" : 1554156305098,
-    "path" : "~/getcffpackage/R/activeUsers.R",
+    "path" : "~/getcffpackage/googleAnalyticsDataRetrievalRApp/R/activeUsers.R",
     "project_path" : "R/activeUsers.R",
     "properties" : {
-        "cursorPosition" : "7,0",
-        "scrollLine" : "0"
+        "cursorPosition" : "21,41",
+        "scrollLine" : "36"
     },
     "relative_order" : 1,
     "source_on_save" : false,
