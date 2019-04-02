@@ -5,6 +5,14 @@ library(devtools)
 library(RJSONIO)
 library(stats)
 
+require(RGA)
+require(lubridate)
+require(RGoogleAnalytics)
+require(devtools)
+require(RJSONIO)
+require(stats)
+
+
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
 	profileUnfiltered.id <- "118039351" ## (Unfiltered)
