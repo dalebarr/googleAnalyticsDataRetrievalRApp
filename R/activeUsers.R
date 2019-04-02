@@ -1,9 +1,9 @@
-require(RGA)
-require(lubridate)
-require(RGoogleAnalytics)
-require(devtools)
-require(RJSONIO)
-require(stats)
+library(RGA)
+library(lubridate)
+library(RGoogleAnalytics)
+library(devtools)
+library(RJSONIO)
+library(stats)
 
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
@@ -25,16 +25,17 @@ getActiveUsers <- function() {
 	## Authorise token
 	token <- Auth(client.id, client.secret)
 
-	#authorize(username = "cashflowfunding.co.nz@gmail.com",
-	#		client.id,
-	#		client.secret,
-	#		reauth = FALSE,
-	#		cache = TRUE,
-	#		token)
+	authorize(username = "cashflowfunding.co.nz@gmail.com",
+			client.id,
+			client.secret,
+			reauth = FALSE,
+			cache = TRUE,
+			token)
 
 	## load(file = "/AnalyticsDashboardApp/RProject/GoogleAnalyticsReport/GoogleAnalyticsReport/Token")  ## Production
 	#load(file = "E:/Projects/CFF Utilities/CFFDashboard/GoogleAnalyticsReport/Token") ## Dev
-	load(file = "C:/Users/dale.CFF/Documents/getcffpackage/R/Token")
+	#load(file = "C:/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
+	load(file = "/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
 	ValidateToken(token)
 
 	# Build a list from query
@@ -164,13 +165,13 @@ getActiveUsers <- function() {
 	#print(exportBouncedDailyUsersJson)
 
 	retn_list <- list("filterActiveUsers" = exportActiveUsersJson,
-					  "unfilterActiveUsers" = exportUnfilteredActiveUsersJson,
-					  "newUsersThisWeek" = exportNewUsersThisWeekJson,
-					  "pageBounceThisWeek" = exportPageBounceThisWeekJson,
-					  "pageHitsThisWeek" = exportPageHitsThisWeekJson,
-					  "dailyUsers" = exportDailyUsersJson,
-					  "monthlyUsers" = exportMonthlyUsersJson,
-					  "bouncedDailyUsers" = exportBouncedDailyUsersJson)
+					        "unfilterActiveUsers" = exportUnfilteredActiveUsersJson,
+					        "newUsersThisWeek" = exportNewUsersThisWeekJson,
+					        "pageBounceThisWeek" = exportPageBounceThisWeekJson,
+					        "pageHitsThisWeek" = exportPageHitsThisWeekJson,
+					        "dailyUsers" = exportDailyUsersJson,
+					        "monthlyUsers" = exportMonthlyUsersJson,
+					        "bouncedDailyUsers" = exportBouncedDailyUsersJson)
 
 	return(retn_list)
 }

@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "E62F6C7D",
-    "lastKnownWriteTime" : 1554166118,
-    "last_content_update" : 1554166118733,
+    "lastKnownWriteTime" : 1554172086,
+    "last_content_update" : 1554172086018,
     "path" : "~/getcffpackage/googleAnalyticsDataRetrievalRApp/R/activeUsers.R",
     "project_path" : "R/activeUsers.R",
     "properties" : {
-        "cursorPosition" : "36,65",
-        "scrollLine" : "19"
+        "cursorPosition" : "16,52",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,
