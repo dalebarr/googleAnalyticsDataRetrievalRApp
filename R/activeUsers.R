@@ -1,4 +1,4 @@
-#install.packages((c("devtools","RGA","lubridate","RGoogleAnalytics","RJSONIO","stats")))
+install_github(c("devtools","RGA","lubridate","RGoogleAnalytics","RJSONIO","stats"))
 library(devtools)
 library(RGoogleAnalytics)
 library(RGA)
