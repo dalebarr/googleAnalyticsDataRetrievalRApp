@@ -12,5 +12,3 @@ getActiveUsers <- function() {
 
 	return(retn_list)
 }
-
-
