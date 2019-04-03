@@ -5,5 +5,5 @@ getActiveUsers <- function() {
 	client.secret <- "L32vmz6aJ_76PfIUgg2RHuSf"
 
 	retn_list <- client.id
-	print(retn_list)
+	retn_list
 }
