@@ -1,3 +1,4 @@
+install.packages((c("devtools", "RGA", "lubridate", "RGoogleAnalytics", "RJSONIO", "stats")))
 require(RGA)
 require(lubridate)
 require(RGoogleAnalytics)
