@@ -164,7 +164,7 @@ getActiveUsers <- function() {
 	#write(exportBouncedDailyUsersJson, "E:/Projects/CFF Utilities/CFFDashboard/NodejsReportUsingGoogleAnalyticsWebApp/public/data/bouncedailyUsers.json")
 	#print(exportBouncedDailyUsersJson)
 
-	retn_list <- list("filterActiveUsers" = exportActiveUsersJson,
+	retn_list <- toJSON("filterActiveUsers" = exportActiveUsersJson,
 					        "unfilterActiveUsers" = exportUnfilteredActiveUsersJson,
 					        "newUsersThisWeek" = exportNewUsersThisWeekJson,
 					        "pageBounceThisWeek" = exportPageBounceThisWeekJson,
