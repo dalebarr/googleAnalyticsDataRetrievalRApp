@@ -1,10 +1,10 @@
 install.packages((c("devtools","RGA","lubridate","RGoogleAnalytics","RJSONIO","stats")))
 library(RGA)
-require(lubridate)
-require(RGoogleAnalytics)
-require(devtools)
-require(RJSONIO)
-require(stats)
+library(lubridate)
+library(RGoogleAnalytics)
+library(devtools)
+library(RJSONIO)
+library(stats)
 
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
