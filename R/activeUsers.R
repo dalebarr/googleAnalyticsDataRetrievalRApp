@@ -1,8 +1,10 @@
 #install.packages(c("devtools","RGA","RGoogleAnalytics","RJSONIO"))
 install.packages("tidyverse")
-#library(lubridate)
-library(RGoogleAnalytics)
 library(RGA)
+#library(lubridate)
+#library(RGoogleAnalytics)
+install.packages("RGoogleAnalytics")
+library(RGoogleAnalytics)
 library(RJSONIO)
 #library(stats)
 
