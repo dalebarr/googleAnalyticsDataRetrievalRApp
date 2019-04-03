@@ -1,13 +1,3 @@
-#install.packages(c("devtools","RGA","RGoogleAnalytics","RJSONIO"))
-install.packages("tidyverse")
-library(RGA)
-#library(lubridate)
-#library(RGoogleAnalytics)
-install.packages("RGoogleAnalytics")
-library(RGoogleAnalytics)
-library(RJSONIO)
-#library(stats)
-
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
 	profileUnfiltered.id <- "118039351" ## (Unfiltered)
