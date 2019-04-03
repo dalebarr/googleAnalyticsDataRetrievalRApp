@@ -1,8 +1,8 @@
-install.packages(c("devtools","lubridate","RGA","RGoogleAnalytics","RJSONIO"))
-library(devtools)
-require(lubridate)
-library(RGA)
+#install.packages(c("devtools","RGA","RGoogleAnalytics","RJSONIO"))
+install.packages("tidyverse")
+#library(lubridate)
 library(RGoogleAnalytics)
+library(RGA)
 library(RJSONIO)
 #library(stats)
 
