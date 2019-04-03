@@ -5,10 +5,7 @@ getActiveUsers <- function() {
 	client.id <- "419497916126-3de9a34jhunanqtlnbcfm09uger88dqb.apps.googleusercontent.com"
 	client.secret <- "L32vmz6aJ_76PfIUgg2RHuSf"
 
-	retn_list <- list("profile id" = profile.id,
-	                  "profile id unfiltered" = profileUnfiltered.id,
-	                  "client id"= client.id,
-	                  "client.secret" = client.secret)
+	retn_list <- client.id
 
 	return(retn_list)
 }
