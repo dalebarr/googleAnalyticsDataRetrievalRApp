@@ -1,10 +1,9 @@
-install_github(c("devtools","RGA","lubridate","RGoogleAnalytics","RJSONIO","stats"))
+install.packages(c("devtools","RGA","RGoogleAnalytics","RJSONIO"))
 library(devtools)
+#library(lubridate)
 library(RGoogleAnalytics)
-library(RGA)
-library(lubridate)
 library(RJSONIO)
-library(stats)
+#library(stats)
 
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
