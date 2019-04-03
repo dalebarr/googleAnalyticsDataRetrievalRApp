@@ -23,7 +23,7 @@ getActiveUsers <- function() {
 	yrNow <- as.numeric(format(dtNow,'%Y'))
 
 	## Authorise token
-	token <- Auth(client.id, client.secret)
+	token <- RGA::Auth(client.id, client.secret)
 
 	authorize(username = "cashflowfunding.co.nz@gmail.com",
 			client.id,
