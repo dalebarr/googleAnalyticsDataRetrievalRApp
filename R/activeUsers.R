@@ -1,4 +1,3 @@
-
 getActiveUsers <- function() {
 	profile.id <- "79525860" ## Google Analytics View ID (IP Filtered)
 	profileUnfiltered.id <- "118039351" ## (Unfiltered)
