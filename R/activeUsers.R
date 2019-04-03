@@ -1,8 +1,8 @@
-install.packages((c("devtools","RGA","lubridate","RGoogleAnalytics","RJSONIO","stats")))
+#install.packages((c("devtools","RGA","lubridate","RGoogleAnalytics","RJSONIO","stats")))
+library(devtools)
+library(RGoogleAnalytics)
 library(RGA)
 library(lubridate)
-library(RGoogleAnalytics)
-library(devtools)
 library(RJSONIO)
 library(stats)
 
@@ -26,18 +26,18 @@ getActiveUsers <- function() {
 	## Authorise token
 	token <- Auth(client.id, client.secret)
 
-	authorize(username = "cashflowfunding.co.nz@gmail.com",
-			client.id,
-			client.secret,
-			reauth = FALSE,
-			cache = TRUE,
-			token)
+	#authorize(username = "cashflowfunding.co.nz@gmail.com",
+	#		client.id,
+	#		client.secret,
+	#		reauth = FALSE,
+	#		cache = TRUE,
+	#		token)
 
 	## load(file = "/AnalyticsDashboardApp/RProject/GoogleAnalyticsReport/GoogleAnalyticsReport/Token")  ## Production
 	#load(file = "E:/Projects/CFF Utilities/CFFDashboard/GoogleAnalyticsReport/Token") ## Dev
 	#load(file = "C:/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
 	#load(file = "/Users/dale.CFF/Documents/getcffpackage/googleAnalyticsDataRetrievalRApp/R/Token")
-	##ValidateToken(token)
+	ValidateToken(token)
 
 	# Build a list from query
 
